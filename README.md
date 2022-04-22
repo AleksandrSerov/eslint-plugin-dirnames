@@ -2,6 +2,7 @@
 ===================
 
 Eslint plugin for consistent directory naming
+(original repository was suspended - https://github.com/alfa-laboratory/eslint-plugin-dirnames)
 
 # Installation
 
