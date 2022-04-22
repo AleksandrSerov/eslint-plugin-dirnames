@@ -19,7 +19,10 @@
     "release-minor": "npm version minor -m 'chore(*): minor version'",
     "release-major": "npm version major -m 'chore(*): major version'",
     "postversion": "git push origin master && git push --tags && npm run pub",
-    "pub": "npm publish"
+    "pub": "npm publish --access public"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
   },
   "peerDependencies": {
     "kebab-case": "1.0.0"
@@ -30,5 +33,18 @@
   "devDependencies": {
     "eslint": "^6.8.0",
     "jest": "^25.2.7"
-  }
+  },
+  "homepage": "https://github.com/alfa-laboratory/eslint-plugin-dirnames#readme",
+  "directories": {
+    "lib": "lib",
+    "test": "tests"
+  },
+  "keywords": [
+    "dirnames",
+    "kebab",
+    "kebab-case",
+    "case",
+    "format",
+    "filenames"
+  ]
 }
