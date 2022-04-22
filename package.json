@@ -1,6 +1,6 @@
 {
   "name": "@sserov/eslint-plugin-dirnames",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Eslint rule for consistent dirnames",
   "author": "Aleksandr Serov",
   "bugs": {
