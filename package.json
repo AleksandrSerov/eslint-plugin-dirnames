@@ -4,13 +4,13 @@
   "description": "Eslint rule for consistent dirnames",
   "author": "Aleksandr Serov",
   "bugs": {
-    "url": "https://github.com/alfa-laboratory/eslint-plugin-dirnames/issues"
+    "url": "https://github.com/AleksandrSerov/eslint-plugin-dirnames/issues"
   },
   "license": "ISC",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/alfa-laboratory/eslint-plugin-dirnames.git"
+    "url": "git+https://github.com/AleksandrSerov/eslint-plugin-dirnames.git"
   },
   "scripts": {
     "test": "jest .",
